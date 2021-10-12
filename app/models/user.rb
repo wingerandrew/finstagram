@@ -1,3 +1,9 @@
 class User < ActiveRecord::Base
 
-end
+    has_many :finstagram_posts
+    has_many :comments
+    has_many :likes
+  
+  end
+
+  
